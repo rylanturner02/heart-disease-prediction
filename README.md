@@ -68,8 +68,7 @@ heart-disease-prediction/
 ├── models/               # Saved trained models
 ├── heart_disease_analysis.ipynb  # Main Jupyter notebook with analysis
 ├── README.md             # This file
-├── requirements.txt      # Dependencies
-└── presentation.mp4      # Video presentation
+└── requirements.txt      # Dependencies
 ```
 
 ## Setup and Usage
