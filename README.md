@@ -1,6 +1,6 @@
 # Heart Disease Prediction
 
-## CSCA 5622 Final Project
+## CSCA 5622: Intro to Machine Learning - Supervised Learning final project
 
 This project implements supervised machine learning models to predict the presence of heart disease in patients using the UCI Heart Disease dataset.
 
@@ -8,8 +8,8 @@ This project implements supervised machine learning models to predict the presen
 
 Heart disease remains one of the leading causes of death globally. This project aims to:
 1. Develop a predictive model for early detection of heart disease
-2. Compare multiple machine learning algorithms to find the most effective approach
-3. Identify key medical factors that contribute to heart disease
+2. Compare multiple algorithms to find the best approach
+3. Identify medical factors that contribute to heart disease
 
 ## Dataset
 
@@ -17,7 +17,7 @@ The UCI Heart Disease dataset contains medical attributes from patients includin
 - Age, sex, and other demographic information
 - Clinical measurements (blood pressure, cholesterol levels, etc.)
 - Results from various medical tests
-- Presence or absence of heart disease (target variable)
+- Presence or absence of heart disease
 
 The dataset was collected from several sources, including the Cleveland Clinic Foundation.
 
@@ -59,7 +59,7 @@ This project follows a comprehensive machine learning workflow:
 - Key predictive features include  thallium stress test results (thal), number of major vessels (ca), chest pain type (cp)
 - The model demonstrates significant potential for clinical application
 
-## Repository Structure
+## Structure
 
 ```
 heart-disease-prediction/
@@ -73,7 +73,7 @@ heart-disease-prediction/
 
 ## Setup and Usage
 
-1. Clone this repository
+1. Clone this repo
    ```bash
    git clone https://github.com/rylanturner02/heart-disease-prediction.git
    cd heart-disease-prediction
@@ -101,27 +101,10 @@ heart-disease-prediction/
 - seaborn
 - xgboost
 
-## Video Presentation
-
-A video presentation explaining this project is available in the repository. The presentation covers:
-1. Problem statement and significance
-2. Methodology overview
-3. Key findings and model performance
-4. Demo of the prediction model
-
-## Future Work
-
-- Collect additional data to improve model robustness
-- Explore deep learning approaches for higher accuracy
-- Develop a user-friendly interface for clinical use
-- Incorporate additional medical features to enhance prediction capability
-
-## References
+## Reference
 
 1. UCI Machine Learning Repository: Heart Disease Dataset
    https://archive.ics.uci.edu/dataset/45/heart+disease
-2. American Heart Association - Heart Disease and Stroke Statistics
-   https://www.heart.org/en/about-us/heart-and-stroke-association-statistics
 
 ## Author
 
@@ -129,4 +112,4 @@ Rylan Turner
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
