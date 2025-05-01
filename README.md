@@ -1,0 +1,133 @@
+# Heart Disease Prediction
+
+## CSCA 5622 Final Project
+
+This project implements supervised machine learning models to predict the presence of heart disease in patients using the UCI Heart Disease dataset.
+
+## Project Overview
+
+Heart disease remains one of the leading causes of death globally. This project aims to:
+1. Develop a predictive model for early detection of heart disease
+2. Compare multiple machine learning algorithms to find the most effective approach
+3. Identify key medical factors that contribute to heart disease
+
+## Dataset
+
+The UCI Heart Disease dataset contains medical attributes from patients including:
+- Age, sex, and other demographic information
+- Clinical measurements (blood pressure, cholesterol levels, etc.)
+- Results from various medical tests
+- Presence or absence of heart disease (target variable)
+
+The dataset was collected from several sources, including the Cleveland Clinic Foundation.
+
+## Methodology
+
+This project follows a comprehensive machine learning workflow:
+
+1. **Exploratory Data Analysis (EDA)**
+   - Statistical analysis of features
+   - Visualization of distributions and relationships
+   - Correlation analysis
+
+2. **Data Cleaning and Preprocessing**
+   - Missing value detection and imputation
+   - Outlier identification and treatment
+   - Feature scaling and transformation
+
+3. **Feature Engineering**
+   - Creation of new derived features
+   - Feature selection based on importance
+
+4. **Model Development**
+   - Implementation of multiple algorithms:
+     - Logistic Regression
+     - Random Forest
+     - Support Vector Machine (SVM)
+     - XGBoost
+   - Cross-validation
+   - Hyperparameter tuning
+
+5. **Model Evaluation**
+   - Performance metrics comparison
+   - ROC curve analysis
+   - Feature importance assessment
+
+## Results
+
+- The best performing model achieved an accuracy of 85.53% on the test set
+- Key predictive features include  thallium stress test results (thal), number of major vessels (ca), chest pain type (cp)
+- The model demonstrates significant potential for clinical application
+
+## Repository Structure
+
+```
+heart-disease-prediction/
+├── data/
+│   ├── raw/              # UCI Heart Disease dataset
+├── models/               # Saved trained models
+├── heart_disease_analysis.ipynb  # Main Jupyter notebook with analysis
+├── README.md             # This file
+├── requirements.txt      # Dependencies
+└── presentation.mp4      # Video presentation
+```
+
+## Setup and Usage
+
+1. Clone this repository
+   ```bash
+   git clone https://github.com/rylanturner02/heart-disease-prediction.git
+   cd heart-disease-prediction
+   ```
+
+2. Create a virtual environment and install dependencies
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. Run the Jupyter notebook
+   ```bash
+   jupyter notebook heart_disease_analysis.ipynb
+   ```
+
+## Dependencies
+
+- Python 3.8+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- xgboost
+
+## Video Presentation
+
+A video presentation explaining this project is available in the repository. The presentation covers:
+1. Problem statement and significance
+2. Methodology overview
+3. Key findings and model performance
+4. Demo of the prediction model
+
+## Future Work
+
+- Collect additional data to improve model robustness
+- Explore deep learning approaches for higher accuracy
+- Develop a user-friendly interface for clinical use
+- Incorporate additional medical features to enhance prediction capability
+
+## References
+
+1. UCI Machine Learning Repository: Heart Disease Dataset
+   https://archive.ics.uci.edu/dataset/45/heart+disease
+2. American Heart Association - Heart Disease and Stroke Statistics
+   https://www.heart.org/en/about-us/heart-and-stroke-association-statistics
+
+## Author
+
+Rylan Turner
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
